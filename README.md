@@ -1,5 +1,6 @@
 # 🌿 PlantIdentifier - Discover the Wonders of Nature
-## Juan Luis Ovalle
+## Juan Luis Ovalle Santiago, Chile
+## GitHub: https://github.com/Yeilow7 edX: Yeilow
 
 ![Plant Identifier Preview](VisionPlantApp.png)
 
