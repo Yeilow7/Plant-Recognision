@@ -8,6 +8,8 @@
 
 The app features interactive visual elements like quality bars, rarity indicators, and the ability to compare different plant species, all within a modern and user-friendly interface.
 
+App uses google gemini api to extract information
+
 ## 🛠️ Features
 
 ### 🌱 Image Upload and Plant Identification
