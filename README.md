@@ -14,7 +14,7 @@ App uses google gemini api to extract information.
 Claude was used in the development of the project.
 
 ## Live Performance
-**Link**: https://youtu.be/KFzrEPqwjDY
+### **Link**: https://youtu.be/KFzrEPqwjDY
 
 ## 🛠️ Futures
 
