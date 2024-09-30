@@ -25,15 +25,6 @@ The app features interactive visual elements like quality bars, rarity indicator
 ### 🔍 Precise Information Display
 - **Care Instructions**: Provides detailed instructions for caring for each identified plant, including watering guides, light exposure, ideal temperatures, and recommended soil types.
 
-## 📸 Visual Overview
-
-![App Screenshot](https://yourimagelink.com/screenshot.png)
-
-In the image above, you can see how the app identifies and compares two plants:
-
-- **Ghost Orchid** (Dendrophylax lindenii): A rare plant with detailed care information and a visual bar indicating its rarity and quality.
-- **Passionflower** (Passiflora incarnata): Another plant with details on its care, rarity, and quality, which can be easily compared with other species.
-
 ## 📁 Project Structure
 
 The project follows a modular and scalable architecture, making it easy to maintain and grow over time.
@@ -47,7 +38,7 @@ The project follows a modular and scalable architecture, making it easy to maint
 │   ├── page.tsx                     # Main page where users interact
 │   └── components/                  # Reusable components of the application
 │       └── PlantIdentifier.tsx      # Main logic for image upload and analysis
-├── node_modules/                    # Project dependencies (not included in the repository)
+├── node_modules/                    # Project dependencies 
 ├── public/
 │   └── countries-110m.json          # Public files for displaying images or other data
 ├── .env.local                       # Environment variables
