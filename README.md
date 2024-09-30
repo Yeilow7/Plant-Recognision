@@ -13,8 +13,8 @@ The app features interactive visual elements like quality bars, rarity indicator
 App uses google gemini api to extract information.
 Claude was used in the development of the project.
 
-### Live Performance
-Link: https://youtu.be/KFzrEPqwjDY
+## Live Performance
+**Link**: https://youtu.be/KFzrEPqwjDY
 
 ## 🛠️ Futures
 
