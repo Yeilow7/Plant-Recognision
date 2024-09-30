@@ -1,4 +1,5 @@
 # 🌿 PlantIdentifier - Discover the Wonders of Nature
+Juan Luis Ovalle
 
 ![Plant Identifier Preview](VisionPlantApp.png)
 
