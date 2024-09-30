@@ -4,51 +4,60 @@
 
 ## 🌟 Overview
 
-**PlantIdentifier** es una aplicación diseñada para ayudar a los usuarios a identificar plantas subiendo imágenes de las mismas. Utiliza un enfoque intuitivo donde el usuario puede cargar imágenes y recibir detalles sobre la especie de planta identificada, así como su rareza y calidad según el análisis visual.
+**PlantIdentifier** is an application designed to help users identify plants by uploading images. It uses an intuitive approach where users can upload images and receive details about the identified plant species, including its rarity and quality based on visual analysis.
 
-La aplicación cuenta con características visuales interactivas como barras de calidad, rareza y comparaciones entre diferentes especies de plantas, todo en una interfaz amigable y moderna.
+The app features interactive visual elements like quality bars, rarity indicators, and the ability to compare different plant species, all within a modern and user-friendly interface.
 
 ## 🛠️ Features
 
 ### 🌱 Image Upload and Plant Identification
-- **Fácil carga de imágenes**: Los usuarios pueden seleccionar imágenes de sus plantas para cargarlas y procesarlas, permitiendo que el sistema las identifique automáticamente.
-- **Comparación de especies**: Después de la identificación, los usuarios pueden comparar diferentes plantas entre sí para entender mejor sus diferencias y características únicas.
+- **Easy Image Upload**: Users can upload images of their plants to be processed, allowing the system to automatically identify them.
+- **Species Comparison**: After identification, users can compare different plants to better understand their unique characteristics and differences.
 
 ### 💡 Visual Feedback
-- **Calidad de la planta**: Una barra indica la calidad de la planta basada en el análisis de la imagen, con un sistema de evaluación visual intuitivo.
-- **Rareza de la planta**: La aplicación muestra cuán rara es la planta, utilizando una barra de rareza que va de menos a más rara, con colores que ayudan a interpretar la rareza de manera rápida y sencilla.
+- **Plant Quality**: A bar indicates the plant's quality based on image analysis, with an intuitive visual evaluation system.
+- **Plant Rarity**: The app shows how rare the plant is using a rarity bar that ranges from less to more rare, with colors helping users interpret rarity quickly and easily.
 
 ### 🎨 Customizable Interface
-- **Modo oscuro**: Alterna fácilmente entre el modo claro y oscuro, permitiendo al usuario elegir el que más le acomode para su experiencia visual.
-- **Detalles interactivos**: Los usuarios pueden desplegar y ocultar información adicional sobre el cuidado de las plantas, como riego, luz, temperatura y requisitos de suelo.
+- **Dark Mode**: Easily switch between light and dark mode, allowing users to choose the display mode that best suits their visual preferences.
+- **Interactive Details**: Users can expand and collapse additional information about plant care, such as watering, light, temperature, and soil requirements.
 
 ### 🔍 Precise Information Display
-- **Información de cuidado**: Proporciona instrucciones detalladas para cuidar cada planta identificada, lo que incluye guías sobre riego, exposición a la luz, temperaturas ideales, y tipos de suelo recomendados.
+- **Care Instructions**: Provides detailed instructions for caring for each identified plant, including watering guides, light exposure, ideal temperatures, and recommended soil types.
+
+## 📸 Visual Overview
+
+![App Screenshot](https://yourimagelink.com/screenshot.png)
+
+In the image above, you can see how the app identifies and compares two plants:
+
+- **Ghost Orchid** (Dendrophylax lindenii): A rare plant with detailed care information and a visual bar indicating its rarity and quality.
+- **Passionflower** (Passiflora incarnata): Another plant with details on its care, rarity, and quality, which can be easily compared with other species.
 
 ## 📁 Project Structure
 
-La estructura del proyecto sigue una arquitectura modular y escalable, lo que facilita la mantenibilidad y el crecimiento futuro del proyecto.
+The project follows a modular and scalable architecture, making it easy to maintain and grow over time.
 
 ```plaintext
 ├── app/
-│   ├── fonts/                       # Fuentes personalizadas usadas en el proyecto
-│   ├── favicon.ico                  # Icono de la aplicación
-│   ├── globals.css                  # Estilos globales y configuración de Tailwind
-│   ├── layout.tsx                   # Estructura base de la app
-│   ├── page.tsx                     # Página principal donde los usuarios interactúan
-│   └── components/                  # Componentes reutilizables de la aplicación
-│       └── PlantIdentifier.tsx      # Lógica principal del componente para cargar y analizar imágenes
-├── node_modules/                    # Dependencias del proyecto (no incluidas en el repositorio)
+│   ├── fonts/                       # Custom fonts used in the project
+│   ├── favicon.ico                  # App icon
+│   ├── globals.css                  # Global styles and Tailwind configuration
+│   ├── layout.tsx                   # Base structure of the app
+│   ├── page.tsx                     # Main page where users interact
+│   └── components/                  # Reusable components of the application
+│       └── PlantIdentifier.tsx      # Main logic for image upload and analysis
+├── node_modules/                    # Project dependencies (not included in the repository)
 ├── public/
-│   └── countries-110m.json          # Archivos públicos para mostrar imágenes u otros datos
-├── .env.local                       # Variables de entorno (no deben subirse)
-├── .eslintrc.json                   # Configuración de ESLint para el linting del código
-├── .gitignore                       # Lista de archivos y carpetas a excluir del repositorio
-├── next-env.d.ts                    # Tipos de Next.js
-├── next.config.mjs                  # Configuración personalizada de Next.js
-├── package.json                     # Dependencias y scripts del proyecto
-├── package-lock.json                # Archivo de bloqueo de dependencias
-├── postcss.config.mjs               # Configuración de PostCSS
-├── README.md                        # Documentación del proyecto
-├── tailwind.config.ts               # Configuración de Tailwind CSS
-├── tsconfig.json                    # Configuración de TypeScript
+│   └── countries-110m.json          # Public files for displaying images or other data
+├── .env.local                       # Environment variables
+├── .eslintrc.json                   # ESLint configuration for code linting
+├── .gitignore                       # List of files and folders to be excluded from the repository
+├── next-env.d.ts                    # Next.js types
+├── next.config.mjs                  # Custom Next.js configuration
+├── package.json                     # Project dependencies and scripts
+├── package-lock.json                # Dependency lock file
+├── postcss.config.mjs               # PostCSS configuration
+├── README.md                        # Project documentation
+├── tailwind.config.ts               # Tailwind CSS configuration
+├── tsconfig.json                    # TypeScript configuration
