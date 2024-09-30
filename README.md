@@ -1,6 +1,6 @@
 # 🌿 PlantIdentifier - Discover the Wonders of Nature
 
-![Plant Identifier Preview](https://yourimagelink.com/preview.png)
+![Plant Identifier Preview](VisionPlantApp.jpeg)
 
 ## 🌟 Overview
 
