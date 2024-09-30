@@ -13,9 +13,10 @@ The app features interactive visual elements like quality bars, rarity indicator
 App uses google gemini api to extract information.
 Claude was used in the development of the project.
 
-
-## 🛠️ Live Performance
+### Live Performance
 Link: https://youtu.be/KFzrEPqwjDY
+
+## 🛠️ Futures
 
 ### 🌱 Image Upload and Plant Identification
 - **Easy Image Upload**: Users can upload images of their plants to be processed, allowing the system to automatically identify them.
